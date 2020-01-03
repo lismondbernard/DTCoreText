@@ -9,14 +9,14 @@ let package = Package(
     products: [
         .library(
             name: "DTCoreText",
-            targets: ["DTCoreText"]),
+            targets: ["Core"]),
     ],
     dependencies: [
 	.package(url: "https://github.com/lismondbernard/DTFoundation", .branch("develop")),
     ],
     targets: [
         .target(
-            name: "DTCoreText",
+            name: "Core",
             dependencies: ["DTFoundation"],
 	    path: "Core/Source"),
     ]
