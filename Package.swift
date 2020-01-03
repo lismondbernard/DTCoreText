@@ -18,5 +18,6 @@ let package = Package(
         .target(
             name: "DTCoreText",
             dependencies: ["DTFoundation"]),
+	    path: "Core/Source",
     ]
 )
