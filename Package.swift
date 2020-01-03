@@ -12,7 +12,7 @@ let package = Package(
             targets: ["DTCoreText"]),
     ],
     dependencies: [
-	.package(url: "https://github.com/lismondbernard/DTFoundation", .branch("master")),
+	.package(url: "https://github.com/lismondbernard/DTFoundation", .branch("develop")),
     ],
     targets: [
         .target(
